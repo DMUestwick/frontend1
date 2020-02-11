@@ -1,0 +1,61 @@
+/* HORIZONTAL MENU */
+
+body,
+header h1 {
+  margin: 0;
+}
+
+header {
+  background: yellow;
+  padding: 0.25em;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: green;
+}
+nav a {
+  padding: 1.25em 1.5em;
+  color: #ccc;
+  background: green;
+  text-decoration: none;
+  transition: all 1.5s;
+}
+nav a:hover {
+  color: #dfd;
+  background: grey;
+}
+
+main {
+  padding:  100px;
+  background-color: red;
+  text-align: center;
+  font-size: 50px;
+}
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  width: 100%;
+  height:150px;
+  text-align: center;
+  font-size: 70px
+
+
+/* VERTICAL MENU */
+
+
+nav {
+  flex-direction: column;
+  width: 15%;
+  float: left;
+}
+main {
+  width: 85%;
+  float: right;
+  box-sizing: border-box;
+}
